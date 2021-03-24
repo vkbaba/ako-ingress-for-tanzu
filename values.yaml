@@ -55,10 +55,10 @@ L4Settings:
 
 ### This section outlines settings on the Avi controller that affects AKO's functionality.
 ControllerSettings:
-  serviceEngineGroupName: Default-Group   # Name of the ServiceEngine Group.
-  controllerVersion: 20.1.4   # The controller API version
-  cloudName: Default-Cloud   # The configured cloud name on the Avi controller.
-  controllerHost: '192.168.110.32' # IP address or Hostname of Avi Controller
+  serviceEngineGroupName: Default-Group   # Name of the ServiceEngine Group.  // MUST-EDIT
+  controllerVersion: 20.1.4   # The controller API version  // MUST-EDIT
+  cloudName: Default-Cloud   # The configured cloud name on the Avi controller.  // MUST-EDIT
+  controllerHost: '192.168.110.32' # IP address or Hostname of Avi Controller  // MUST-EDIT
   tenantsPerCluster: 'false' # If set to true, AKO will map each kubernetes cluster uniquely to a tenant in Avi
   tenantName: admin   # Name of the tenant where all the AKO objects will be created in AVI. // Required only if tenantsPerCluster is set to True
 
